@@ -65,7 +65,7 @@ Folder Structure
 
 The repository has the following folder structure:
 
-![Folder Structure](web/images/folder-structure.png)
+![Folder Structure](folder-structure.png)
 
 - The `.github/workflows` directory contains the GitHub Actions workflow file `terraform.yml`.
 - The `web` directory contains your website files, including HTML, CSS, and other assets.
