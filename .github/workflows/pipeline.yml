@@ -4,7 +4,7 @@ on:
   push:
     branches: [main]
 env:
-  AZURE_WEBAPP_NAME: your-webapp-name
+  AZURE_WEBAPP_NAME: connorokaneblog
   AZURE_WEBAPP_PACKAGE_PATH: './web'
 jobs:
   deploy:
