@@ -59,9 +59,3 @@ resource "azuread_application_password" "client_secret" {
   application_object_id = azuread_application.main_application.object_id
   end_date_relative     = "8760h" # Set the expiration date (e.g., 1 year)
 }
-
-// Generate a random password for the client secret
-resource "random_password" "password" {
-  length  = 32
-  special = true
-}
